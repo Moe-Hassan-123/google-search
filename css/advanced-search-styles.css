@@ -1,0 +1,72 @@
+#main {
+    width: 100%;
+    height: calc(100% - 111px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#title-wrapper {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.border {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#wrapper {
+    margin: 40px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* Main page Flex Boxes */
+#forms, #headers {
+    display: flex;
+    flex-direction: row;
+}
+
+#text-explanation, #advanced-search-form, .labels {
+    display: flex;
+    flex-direction: column;
+}
+
+#forms {
+    gap: 40px;
+}
+
+#headers {
+    gap: calc(458px);
+}
+
+
+
+#text-explanation {
+    gap: 6px;
+}
+
+#advanced-search-form {
+    gap: 15px;
+}
+
+.labels {
+    gap: 23px;
+}
+
+.button {
+    align-self: flex-end;
+
+    height: 30px;
+    min-width: 120px;
+    background-color: #498af2;
+    color: white;
+}
+
+.button:hover {
+    background-color: #407ddf;
+    color: white;
+}

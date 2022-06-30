@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+#index-logo {
+    height: 92px;
+    width: 272px;
+}
+.index-form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+}
+
+.form:hover{
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    border-radius: 108px;
+    
+}
+.form-control {
+    border-radius: 108px;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+#search-btn {
+    border: 0.5px solid #ced4da;
+    border-radius: 108px 0 0 108px;
+}
+
+#search-hat {
+    height: 20px;
+    width: auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: transparent;
+}
+.button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.square-img {
+    width: 35px;
+    height: 35px;
+}
+
+#index-text {
+    color: #3c4043;;
+    line-height: 28px;
+    font-size: small;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* HEADER */
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    width: 100%;
+}
+.nav-left ,.nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.nav-right {
+    margin-left: auto;
+}
+.nav-left {
+    margin-right: auto;
+}
+/* .nav-left > :nth-child(1){
+    padding-left: 0%;
+}
+.nav-right > :nth-child(1){
+    padding-right: 0%;
+} */
+a {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top: 2px solid #dadce0;
+    background-color: #f2f2f2;
+    font-weight: 200;
+}
+
+.footer-right, .footer-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 15px;
+    padding-right: 0px;
+}
+
+.footer-left {
+    margin-right: auto;
+}
+.footer-right {
+    margin-left: auto;
+}
+
+#first-item {
+    padding-left: 0px;
+}
