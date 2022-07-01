@@ -40,7 +40,7 @@
 }
 
 #headers {
-    gap: 458px;
+    gap: 447px;
 }
 
 
@@ -51,6 +51,8 @@
 
 #advanced-search-form {
     gap: 15px;
+    flex: 1 0 0; 
+    max-width: 300px;
 }
 
 .labels {
@@ -59,7 +61,6 @@
 
 .button {
     align-self: flex-end;
-
     height: 30px;
     min-width: 120px;
     background-color: #498af2;
@@ -69,4 +70,23 @@
 .button:hover {
     background-color: #407ddf;
     color: white;
+}
+
+@media (max-width: 800px) {
+    .labels{
+        width: 165px;
+    }
+    body {
+        font-size: 14px;
+    }
+    #headers {
+        gap: 200px;
+    }
+    #text-explanation, #headers > label {
+        display: none;
+    }
+
+    #advanced-search-form{
+        padding-right: 20px;
+    }
 }
