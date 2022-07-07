@@ -10,13 +10,14 @@ Description:
 Technologies Used:
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="75"/>
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="75"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="75"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="75"/>         
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="75"/>
 
 
 Preview:
 
-#TO-DO
-
-#3 Images of the 3 webpages.
+<img src="./images/main.png" alt="google search">
+<img src="./images/images.png" alt="images google search">
+<img src="./images/advanced.png" alt="advanced google search">
           
